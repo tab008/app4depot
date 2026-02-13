@@ -40,6 +40,7 @@ jobs:
         run: |
           # This command pre-accepts licenses so the build doesn't hang or fail
           yes | sdkmanager --licenses || true
+      
 
       - name: Build with Buildozer
         run: |
